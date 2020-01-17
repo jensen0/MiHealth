@@ -1,0 +1,65 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  font-family: "Arial Black";
+}
+header {
+  background-color: white;
+}
+h2.logo:before {
+  content: 'MI';
+  color: #B53737;
+}
+h2.logo:after {
+  content: 'HEALTH';
+  color: #73b504;
+}
+p, a {
+  font-family: "Arial";
+}
+p {
+  line-height: 140%;
+}
+.food {
+  height: 450px;
+  width: 300px;
+  margin-right: 10px;
+}
+.food-1 {
+  background: url('https://mtec.instructure.com/users/1655453/files/97536492/preview?verifier=6tEbdvAvl1QDIBpmCM7JsUVxgKimV50UJT2U9ivP');
+  background-size: contain;
+  margin-top: 90px;
+}
+.food-2 {
+  background: url('https://mtec.instructure.com/users/1655453/files/97536496/preview?verifier=VK9OiU1UaPH9JOuib0r3uToB6TFhYiHLHgPO8msU');
+  background-size: contain;
+  margin-top: 90px;
+}
+.food-3 {
+  background: url('https://mtec.instructure.com/users/1655453/files/97536514/preview?verifier=QeYxnovrAJerviKMdtUTXdhxkXmxB3YEkbLtaS38');
+  background-size: cover;
+  margin-top: 90px;
+}
+.food-container {
+  display: flex;
+  padding-left: 40px;
+}
+.big-container {
+  display: flex;
+  align-items: center;
+}
+.food-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 450px;
+}
+.fresh {
+  background-color: white;
+  padding: 15px 10px 15px 15px;
+}
+.break {
+  background-color: #73b504;
+  padding: 15px 10px 15px 55px;
+}
